@@ -332,12 +332,6 @@ for mail_id in mails[0].decode().split():
       except:
         ldata_single.append(float(0.00))
 
-
-      #ldata_single.append(format(ldata_single[1]+ldata_single[3]+ldata_single[4],'.2f'))
-      #ldata_single.append(format(ldata_single[2]-ldata_single[1]+ldata_single[3]+ldata_single[4]-ldata_single[6]+ldata_single[7]-ldata_single[10]-ldata_single[12],'.2f'))
-      #ldata_single.append(format(ldata_single[2]-ldata_single[1]+ldata_single[3]+ldata_single[4]-ldata_single[6]-ldata_single[11]-ldata_single[12]-ldata_single[13],'.2f'))
-      #ldata_single.append(format(ldata_single[3]-ldata_single[2]+ldata_single[4]+ldata_single[5]-ldata_single[7]-ldata_single[12]-ldata_single[13]-ldata_single[14]-ldata_single[15]-ldata_single[16],'.2f'))
-      #ldata_single.append(format(ldata_single[3]+ldata_single[4]+ldata_single[5]+ldata_single[2],'.2f'))
       ldata_single.append(format(-ldata_single[13]-ldata_single[2]+ldata_single[3]-ldata_single[4]-ldata_single[5]-ldata_single[7]-ldata_single[9]-ldata_single[12]-ldata_single[14]-ldata_single[15]-ldata_single[16],'.2f'))
       #-Eingang - Start + Ende - Investitionen - Sekundärmarkt - Investment principal transit - Tilgungszahlungen aus Rückkäufen-Erhaltene Tilgung aus Kreditrückkauf 
       if debug == 1:
